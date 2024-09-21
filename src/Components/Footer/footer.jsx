@@ -84,7 +84,7 @@ function Footer() {
 
                     </div>
 
-                    { footerdata && 
+{/*                     { footerdata && 
                     <div className="reach-us">
                         <h4>Reach Us</h4>
                         <p><MdEmail size={20} color='#56B6DC' style={{marginRight:"0.88rem", marginBottom:"-0.2rem"}}/>
@@ -94,7 +94,7 @@ function Footer() {
                         </p>
                         <p> <IoMdPhonePortrait size={20} color='#56B6DC' style={{marginRight:"0.88rem",marginBottom:"-0.2rem"}}/>{footerdata.footer.contactInformation.contactPhoneNumber}</p>
                         <p><IoLocation size={20} color='#56B6DC' style={{marginRight:"0.88rem",marginBottom:"-0.2rem"}}/>{footerdata.footer.contactInformation.contactAddress}</p>
-                    </div>}
+                    </div>} */}
 
                 </div>
 
