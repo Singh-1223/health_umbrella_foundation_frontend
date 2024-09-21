@@ -22,7 +22,7 @@ function Footer() {
                 `${process.env.REACT_APP_BACKEND_IP}/footer/`
               );
             setFooterData(datafetch.data);
-           
+           console.log(footerdata);
           }catch(error){
             console.error(error);
           }
@@ -45,7 +45,7 @@ function Footer() {
                         <p>We would like to stay connected with you and keep you updated on
                             all the latest testimonials of different diseases. That's why we invite
                             you to follow our social media handles.</p>
-                        {footerdata && 
+{/*                         {footerdata && 
                         <div className="follow-us_links">
                             
                             <a href={`https://${footerdata.footer.socialMediaInformation.instagramLink}`} target="__blank" >
@@ -62,7 +62,7 @@ function Footer() {
                             </a>
                         
                        
-                        </div>}
+                        </div>} */}
                     </div>
 
                     <div className="quick-links">
